@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-function Letreiro() {
-    const texto = "Venha estudar na Fatec";
+function Letreiro2() {
+    const texto = "Conheça a Fatec";
     const [displayedText, setDisplayedText] = useState('');
 
     useEffect(() => {
@@ -9,7 +9,9 @@ function Letreiro() {
         const timer = setInterval(() => {
             setDisplayedText(texto.substring(0, index));
             index++;
-            if (index > texto.length) clearInterval(timer);
+            if (index > texto.length) {
+            index = 0;
+            }
         }, 200);
         return () => clearInterval(timer);
     }, []);
@@ -21,4 +23,4 @@ function Letreiro() {
     );
 }
 
-export default Letreiro;
+export default Letreiro2;
