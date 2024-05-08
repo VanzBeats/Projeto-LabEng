@@ -2,18 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Relogio from './Semana02/Relogio';
-import Letreiro2 from './Semana02/Letreiro2'
-import Letreiro from './Semana01/Letreiro';
-
+import Rotas from "./Rotas";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Exec(){
   root.render(
     <React.StrictMode>
-      <Relogio/>
-      <Letreiro/>
-      <Letreiro2/>
+      <Rotas/>
     </React.StrictMode>
   );
 }
