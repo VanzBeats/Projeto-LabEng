@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Contador from './Contador';
 function Semana02() {
     return (
     <>
+    <Contador/>
     </>
     );
 }

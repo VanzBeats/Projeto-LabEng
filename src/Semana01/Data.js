@@ -1,5 +1,4 @@
 
-
 function Data() {
     var dataAtual = new Date();
 

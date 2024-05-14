@@ -1,0 +1,36 @@
+.contador-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.contador-section {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.total {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
